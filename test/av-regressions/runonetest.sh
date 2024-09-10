@@ -3,8 +3,8 @@ bpl=$2
 opt=$3
 inst_opt=$4
 
-HEXE="dotnet ../../source/AvHarnessInstrumentation/bin/$configuration/net6.0/AvHarnessInstrumentation.dll"
-BGEXE="dotnet ../../source/AngelicVerifier/bin/$configuration/net6.0/AngelicVerifier.dll"
+HEXE="dotnet ../../source/AvHarnessInstrumentation/bin/$configuration/net5.0/AvHarnessInstrumentation.dll"
+BGEXE="dotnet ../../source/AngelicVerifier/bin/$configuration/net5.0/AngelicVerifier.dll"
 
 echo
 echo "-------------------- $bpl --------------------"
